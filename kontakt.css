@@ -39,7 +39,7 @@ li {
 .griddy {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 200px;
+  gap: 50px;
   padding: 20px;
   max-width: 800px;
   text-align: center;
