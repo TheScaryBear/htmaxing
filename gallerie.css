@@ -36,6 +36,7 @@ li {
   font-size: 24px;
 }
 
+h1,
 .griddy {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -50,14 +51,40 @@ li {
   background-color: #92acee;
   width: 81%;
   padding-top: 10px;
-  padding-bottom: 100%;
+  padding-bottom: 1%;
+  border-radius: 10px;
   margin-left: 30%;
   margin: auto;
+}
+
+.content-container h1 {
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 5px;
+  font-size: 64px;
+  background-color: #92a1ee;
 }
 
 .griddy img {
   width: 100%;
   height: auto;
+}
+
+/*So responsive!, hier ist der sinn dass händy benutzer nicht direkt zerstörst werden*/
+@media screen and (max-width: 950px) {
+  .griddy img {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .content-container p {
+    margin-left: 5%;
+    text-align: left;
+  }
 }
 .persona {
   font-size: 64px;

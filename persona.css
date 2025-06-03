@@ -68,12 +68,27 @@ ul {
   font-size: 64px;
   background-color: #92a1ee;
 }
+
 .novak1 {
   margin-top: 25px;
   float: right;
   margin-right: 20%;
   height: 541px;
   width: 546px;
+}
+@media screen and (max-width: 950px) {
+  .novak1 {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .content-container p {
+    margin-left: 5%;
+    text-align: left;
+  }
 }
 
 .persona {
