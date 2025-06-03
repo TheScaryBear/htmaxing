@@ -1,0 +1,68 @@
+body {
+  background-color: #92acee;
+  background-image: url("DeathEgg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  position: relative;
+  background-color: #92acee;
+  padding: 3%;
+  margin: -10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+p,
+a,
+li {
+  padding: 5px;
+  background-color: #92a1ee;
+  font-size: 24px;
+}
+
+.griddy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: fit-content;
+  margin: 20px;
+}
+
+.content-container {
+  background-color: #92acee;
+  width: 81%;
+  padding-top: 10px;
+  padding-bottom: 100%;
+  margin: auto;
+}
+
+.griddy img {
+  width: 150px;
+  height: auto;
+}
+.persona {
+  font-size: 64px;
+}
+
+.metal {
+  font-size: 64px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
